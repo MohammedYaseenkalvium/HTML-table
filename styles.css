@@ -1,17 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins&family=Roboto&display=swap');
 body{
   background-color:#FBE4E4;
   padding: 150px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color:  rgb(214,50,49); 
 }
-table{
-  align-items: center;
-  padding: 30px;
-  border-collapse: collapse;
-  text-align: center;
-  border-spacing: 5px;
+table, th, tr, td {
   margin: auto;
-  
+  border-spacing: 5px;
+  padding: 20px;
+  border-collapse: collapse;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+
 }
 td{
   align-items: center;
  
+}
+#kq{
+  position: relative;
+  left: -2px;
+  bottom: 138px;}
+#pf{
+  position: relative;
+    left: 830px;
+    bottom: 140px;
+    height: 30px;
+  }
+#courses{
+  position: relative;
+  bottom: 231px;
+    left: 1149px;}
+#student{
+  position: relative;
+  left: 1068px;
+  bottom: 191px;
+}
+th{
+  background-color: rgb(214,50,49);
+  color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(255,255,255);
+    /* border-bottom: 2px solid rgb(257,257,257); */
+}
+tr:nth-child(odd){
+   background-color: rgb(243,243,243);
+}
+h3{
+  position: relative;
+  left: 566px;
+  top: -103px;
+  color: black;
+}
+table{
+  margin-top: -105px;
+  border-bottom: 3px solid rgb(217,77,76);
+}
+tr{
+  border-bottom: 1px solid rgb(188, 184, 184);
 }
